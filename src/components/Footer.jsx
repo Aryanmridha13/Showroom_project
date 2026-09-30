@@ -92,9 +92,9 @@ export default function Footer() {
           <div>
             © 2026 <strong>{SHOWROOM_INFO.name}</strong>. All Rights Reserved. Electric Vehicle Division.
           </div>
-          <div style={{ fontSize: '0.8rem', color: '#64748B' }}>
+          {/* <div style={{ fontSize: '0.8rem', color: '#64748B' }}>
             React 18 Dynamic Frontend | Direct Owner Contact Portal | Zero Database
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

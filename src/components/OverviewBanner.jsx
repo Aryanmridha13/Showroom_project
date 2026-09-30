@@ -10,9 +10,11 @@ export default function OverviewBanner() {
           <div className="overview-banner-inner">
             <div className="overview-text-col">
               <span className="hero-badge-wrap" style={{ background: 'rgba(255,103,0,0.2)', borderColor: 'rgba(255,103,0,0.4)', color: '#FF8833' }}>
+                <Zap size={14} style={{ marginRight: '0.4rem', verticalAlign: 'middle' }} />
                 Smart Mobility Overview
               </span>
               <h2 className="overview-title">
+                <Zap size={26} style={{ color: 'var(--accent-orange)', verticalAlign: 'middle', marginRight: '0.5rem', display: 'inline-block' }} />
                 Low Speed & High Speed <span>Electric Scooter Overview</span>
               </h2>
               <p className="overview-desc">
