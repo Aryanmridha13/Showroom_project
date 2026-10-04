@@ -14,10 +14,10 @@ export default function Footer() {
               </div>
               <div className="brand-text">
                 <span className="brand-title" style={{ color: '#fff', WebkitTextFillColor: '#fff' }}>
-                  MRIDHA & SONS
+                  ELECTRIC VEHICLE SHOWROOM
                 </span>
                 <span className="brand-sub" style={{ color: '#94A3B8' }}>
-                  SHOWROOM EV DIVISION
+                  AUTHORIZED DEALERSHIP
                 </span>
               </div>
             </div>

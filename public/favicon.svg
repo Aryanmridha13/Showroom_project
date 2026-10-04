@@ -24,7 +24,7 @@
   <!-- Subtle Glass / Reflection Border -->
   <rect x="20" y="20" width="472" height="472" rx="112" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-opacity="0.25" />
 
-  <!-- Iconic Electric Bolt (MSD EV Emblem) -->
+  <!-- Iconic Electric Bolt (Electric Vehicle Showroom Emblem) -->
   <path 
     d="M290 75 L170 265 H270 L222 437 L342 247 H242 Z" 
     fill="url(#boltGrad)" 

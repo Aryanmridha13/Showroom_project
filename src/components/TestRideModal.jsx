@@ -20,7 +20,7 @@ export default function TestRideModal({ isOpen, defaultModel, onClose }) {
       `🛵 *Model Requested:* ${model}\n` +
       `📅 *Preferred Date:* ${date}\n` +
       `⏰ *Time Slot:* ${slot}\n` +
-      `📍 *Location:* Mridha & Sons Showroom\n\n` +
+      `📍 *Location:* Electric Vehicle Showroom\n\n` +
       `Please confirm my test ride appointment. Thank you!`;
 
     const waUrl = `https://wa.me/${SHOWROOM_INFO.whatsappNumber}?text=${encodeURIComponent(formattedMessage)}`;
@@ -47,7 +47,7 @@ export default function TestRideModal({ isOpen, defaultModel, onClose }) {
                 Booking Request Ready!
               </h3>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-                Connecting directly with Mridha and Sons Showroom on WhatsApp...
+                Connecting directly with Electric Vehicle Showroom on WhatsApp...
               </p>
             </div>
           ) : (
@@ -57,7 +57,7 @@ export default function TestRideModal({ isOpen, defaultModel, onClose }) {
                 Book a Free Test Ride
               </h3>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginBottom: '1.5rem' }}>
-                Experience the smooth, silent power of electric mobility at Mridha and Sons Showroom. Choose your model & convenient slot.
+                Experience the smooth, silent power of electric mobility at Electric Vehicle Showroom. Choose your model & convenient slot.
               </p>
 
               <form onSubmit={handleSubmit}>

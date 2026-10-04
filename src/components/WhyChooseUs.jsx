@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
       <div className="container">
         <div className="section-header">
           <span className="section-tag">Showroom Advantage</span>
-          <h2 className="section-title">Why Choose Mridha and Sons Showroom?</h2>
+          <h2 className="section-title">Why Choose Electric Vehicle Showroom?</h2>
           <p className="section-subtitle">
             We are committed to delivering the most reliable, transparent, and hassle-free electric vehicle buying experience.
           </p>

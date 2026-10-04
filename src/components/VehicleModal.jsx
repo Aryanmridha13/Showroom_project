@@ -56,7 +56,7 @@ export default function VehicleModal({ vehicle, onClose, onOpenTestRide }) {
             {/* Direct Actions to Owner */}
             <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               <a
-                href={generateWhatsAppUrl(vehicle.name, `Hello Mridha & Sons Showroom! I am interested in ${vehicle.name} in ${selectedColor.name} color. Please provide showroom availability and best offer.`)}
+                href={generateWhatsAppUrl(vehicle.name, `Hello Electric Vehicle Showroom! I am interested in ${vehicle.name} in ${selectedColor.name} color. Please provide showroom availability and best offer.`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"

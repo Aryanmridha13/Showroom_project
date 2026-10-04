@@ -49,7 +49,7 @@ export default function App() {
       {/* 1. Top Announcement Bar with Owner Helpline */}
       <AnnouncementBar onOpenTestRide={() => handleOpenTestRide()} />
 
-      {/* 2. Master Navbar with Mridha & Sons Showroom branding & live search */}
+      {/* 2. Master Navbar with Electric Vehicle Showroom branding & live search */}
       <Navbar
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
@@ -92,7 +92,7 @@ export default function App() {
         {/* Petrol vs. EV Savings Calculator */}
         <SavingsCalculator />
 
-        {/* Why Choose Mridha & Sons Showroom */}
+        {/* Why Choose Electric Vehicle Showroom */}
         <WhyChooseUs />
 
         {/* Direct Owner Contact & Showroom Visit Hub */}

@@ -31,7 +31,7 @@ export default function SavingsCalculator() {
               Calculate Your Petrol Savings
             </h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginBottom: '2rem' }}>
-              See how much money you save every month and year by switching from a petrol scooter to an electric scooter from Mridha & Sons Showroom.
+              See how much money you save every month and year by switching from a petrol scooter to an electric scooter from Electric Vehicle Showroom.
             </p>
 
             <div className="calc-inputs">
@@ -76,14 +76,14 @@ export default function SavingsCalculator() {
                 <div className="val" style={{ color: '#F87171' }}>₹{annualPetrol.toLocaleString('en-IN')}</div>
               </div>
               <div className="calc-breakdown-item">
-                <div className="label">Mridha EV Cost/Yr</div>
+                <div className="label">EV Scooter Cost/Yr</div>
                 <div className="val" style={{ color: '#4ADE80' }}>₹{annualEV.toLocaleString('en-IN')}</div>
               </div>
             </div>
 
             <div style={{ marginTop: '1.5rem' }}>
               <a
-                href={generateWhatsAppUrl('', `Hello Mridha & Sons Showroom! I used your website savings calculator for ${dailyKm} KM daily travel. I am interested in switching to an EV.`)}
+                href={generateWhatsAppUrl('', `Hello Electric Vehicle Showroom! I used your website savings calculator for ${dailyKm} KM daily travel. I am interested in switching to an EV.`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"

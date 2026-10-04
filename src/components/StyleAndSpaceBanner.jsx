@@ -73,7 +73,7 @@ export default function StyleAndSpaceBanner({ onOpenTestRide }) {
           >
             <img
               src="/assets/images/mg-pro.png"
-              alt="Mridha & Sons Electric Scooter Style & Space Cockpit"
+              alt="Electric Vehicle Showroom Scooter Style & Space Cockpit"
               className="style-space-front-img"
               loading="lazy"
             />
@@ -124,7 +124,7 @@ export default function StyleAndSpaceBanner({ onOpenTestRide }) {
                 Experience Next-Gen Smooth EV Commute
               </h4>
               <p style={{ color: '#CBD5E1', fontSize: '0.88rem' }}>
-                Visit Mridha and Sons Showroom for a live demonstration of silent power and smart digital cockpit.
+                Visit Electric Vehicle Showroom for a live demonstration of silent power and smart digital cockpit.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
@@ -136,7 +136,7 @@ export default function StyleAndSpaceBanner({ onOpenTestRide }) {
                 Book Test Ride
               </button>
               <a
-                href={generateWhatsAppUrl('X-ONE', 'Hello Mridha & Sons Showroom! I saw the STYLE & SPACE feature and would like to visit the showroom.')}
+                href={generateWhatsAppUrl('X-ONE', 'Hello Electric Vehicle Showroom! I saw the STYLE & SPACE feature and would like to visit the showroom.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"

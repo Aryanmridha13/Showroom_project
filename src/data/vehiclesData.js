@@ -1,5 +1,5 @@
 /**
- * MRIDHA & SONS SHOWROOM - React EV Catalog Data
+ * ELECTRIC VEHICLE SHOWROOM - React EV Catalog Data
  * Featuring 4 Flagship Models: MG PRO, X3, X-ONE, and SE.
  * Strictly NO PRICES shown.
  */
@@ -178,22 +178,22 @@ export const VEHICLES_DATA = [
 ];
 
 export const SHOWROOM_INFO = {
-  name: "MRIDHA & SONS SHOWROOM",
+  name: "ELECTRIC VEHICLE SHOWROOM",
   division: "Authorized Electric Vehicle Division",
   tagline: "Eco-Friendly Electric Mobility - Sales, Spares & Authorized Service",
-  ownerName: "Mridha & Sons Family",
+  ownerName: "Electric Vehicle Showroom",
   phonePrimary: "+91 91317 76524",
   phoneSecondary: "+91 91317 76524",
   whatsappNumber: "919131776524",
   email: "aryanmridha1305@gmail.com",
   address: {
-    line1: "62MX+3R6 MRIDHA AND SONS Electric vehicle showroom, Chopna 2",
+    line1: "62MX+3R6 Electric Vehicle Showroom, Chopna 2",
     line2: "Chopna",
     city: "Chopna",
     state: "Madhya Pradesh",
     pincode: "460440",
     country: "India",
-    fullAddress: "62MX+3R6 MRIDHA AND SONS Electric vehicle showroom, Chopna 2, Chopna, Madhya Pradesh 460440"
+    fullAddress: "62MX+3R6 Electric Vehicle Showroom, Chopna 2, Chopna, Madhya Pradesh 460440"
   },
   timing: {
     weekdays: "Monday - Sunday: 10:30 AM - 7:00 PM",
@@ -269,9 +269,9 @@ export function generateWhatsAppUrl(modelName = '', customMessage = '') {
   if (customMessage) {
     text = customMessage;
   } else if (modelName) {
-    text = `Hello Mridha & Sons Showroom! I visited your website and I am interested in knowing more about the *${modelName}* Electric Scooter model (Color availability, test ride, and showroom quote).`;
+    text = `Hello Electric Vehicle Showroom! I visited your website and I am interested in knowing more about the *${modelName}* Electric Scooter model (Color availability, test ride, and showroom quote).`;
   } else {
-    text = `Hello Mridha & Sons Showroom! I visited your website and would like to know about your Electric Scooters collection and showroom location.`;
+    text = `Hello Electric Vehicle Showroom! I visited your website and would like to know about your Electric Scooters collection and showroom location.`;
   }
   return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
 }

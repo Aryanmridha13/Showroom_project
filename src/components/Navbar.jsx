@@ -8,14 +8,14 @@ export default function Navbar() {
     <header className="site-header">
       <div className="container">
         <nav className="navbar">
-          {/* Brand Logo: MSD EV SHOWROOM */}
-          <a href="#" className="brand-logo" aria-label="MSD EV Showroom Home">
+          {/* Brand Logo: Electric Vehicle Showroom */}
+          <a href="#" className="brand-logo" aria-label="Electric Vehicle Showroom Home">
             <div className="brand-emblem">
               <Zap size={18} fill="currentColor" />
             </div>
             <div className="brand-text">
               <span className="brand-title">
-                MSD <span className="brand-ev-badge">EV</span> SHOWROOM
+                ELECTRIC VEHICLE <span className="brand-ev-badge">SHOWROOM</span>
               </span>
               <span className="brand-sub">AUTHORIZED DEALER</span>
             </div>

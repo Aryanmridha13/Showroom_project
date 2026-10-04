@@ -9,7 +9,7 @@ export default function AnnouncementBar({ onOpenTestRide }) {
         <div className="announcement-left">
           <span className="announcement-item">
             <MapPin size={14} />
-            Mridha and Sons Showroom, Chopna, Madhya Pradesh
+            Electric Vehicle Showroom, Chopna, Madhya Pradesh
           </span>
           <span className="announcement-item">
             <Clock size={14} />

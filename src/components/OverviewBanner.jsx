@@ -18,7 +18,7 @@ export default function OverviewBanner() {
                 Low Speed & High Speed <span>Electric Scooter Overview</span>
               </h2>
               <p className="overview-desc">
-                Our range of low-speed and high-speed electric scooters is ideal for short and daily runs to the market, school drops, office travel, and commercial deliveries. Mridha and Sons Showroom gives you an electric vehicle range that gives you the confidence to travel regular distances every single day with maximum savings.
+                Our range of low-speed and high-speed electric scooters is ideal for short and daily runs to the market, school drops, office travel, and commercial deliveries. Electric Vehicle Showroom gives you an electric vehicle range that gives you the confidence to travel regular distances every single day with maximum savings.
               </p>
 
               <div className="overview-features-list">

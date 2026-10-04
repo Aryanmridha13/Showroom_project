@@ -282,7 +282,7 @@ export default function GenuinePartsSection() {
                 <span>Contact Dealer ({SHOWROOM_INFO.phonePrimary})</span>
               </a>
               <a
-                href={generatePartWhatsAppUrl('', 'Hello Mridha & Sons Showroom! I would like to inquire about more EV spare parts and accessories availability at your store.')}
+                href={generatePartWhatsAppUrl('', 'Hello Electric Vehicle Showroom! I would like to inquire about more EV spare parts and accessories availability at your store.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"

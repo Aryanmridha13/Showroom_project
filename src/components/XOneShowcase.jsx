@@ -64,7 +64,7 @@ export default function XOneShowcase({ onOpenModal, onOpenTestRide }) {
               Full Specs
             </button>
             <a
-              href={generateWhatsAppUrl(activeModel.name, `Hello Mridha & Sons Showroom! I am interested in KOMAKI ${activeModel.name} in ${activeColor?.name || 'Standard'} shade.`)}
+              href={generateWhatsAppUrl(activeModel.name, `Hello Electric Vehicle Showroom! I am interested in KOMAKI ${activeModel.name} in ${activeColor?.name || 'Standard'} shade.`)}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp-pill"

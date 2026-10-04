@@ -59,7 +59,7 @@ export const SPARE_PARTS_DATA = [
       'Thickened lead-alloy grid architecture resisting internal sulfation and heat',
       '100% spill-proof sealed design requiring zero distilled water top-ups',
       'High cold-cranking and sustained hill-climbing current capability',
-      'Instant exchange discount available at Mridha and Sons Showroom'
+      'Instant exchange discount available at Electric Vehicle Showroom'
     ]
   },
   {
@@ -330,9 +330,9 @@ export function generatePartWhatsAppUrl(partName, customQuestion = '') {
   if (customQuestion) {
     text = customQuestion;
   } else if (partName) {
-    text = `Hello Mridha & Sons Showroom! I saw the *${partName}* on your website and would like to check current stock availability, pricing, and showroom installation service.`;
+    text = `Hello Electric Vehicle Showroom! I saw the *${partName}* on your website and would like to check current stock availability, pricing, and showroom installation service.`;
   } else {
-    text = `Hello Mridha & Sons Showroom! I am inquiring about Electric Scooter Spare Parts and Genuine Accessories.`;
+    text = `Hello Electric Vehicle Showroom! I am inquiring about Electric Scooter Spare Parts and Genuine Accessories.`;
   }
   return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
 }

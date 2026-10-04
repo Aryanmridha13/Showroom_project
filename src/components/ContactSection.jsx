@@ -12,7 +12,7 @@ export default function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const formattedMessage = `*NEW SHOWROOM ENQUIRY - MRIDHA & SONS*\n\n` +
+    const formattedMessage = `*NEW SHOWROOM ENQUIRY - ELECTRIC VEHICLE SHOWROOM*\n\n` +
       `👤 *Name:* ${name}\n` +
       `📞 *Phone Number:* ${phone}\n` +
       `🏙️ *Customer City/Area:* ${city || 'Local'}\n` +
@@ -48,7 +48,7 @@ export default function ContactSection() {
           <div className="contact-info-card">
             <div className="owner-direct-box">
               <div className="owner-direct-header">
-                <div className="owner-avatar">M</div>
+                <div className="owner-avatar">EV</div>
                 <div className="owner-titles">
                   <h3>{SHOWROOM_INFO.name}</h3>
                   <p>{SHOWROOM_INFO.division}</p>
@@ -121,7 +121,7 @@ export default function ContactSection() {
                 <CheckCircle size={54} color="#10B981" style={{ margin: '0 auto 1rem' }} />
                 <h3 className="form-title">Enquiry Generated!</h3>
                 <p style={{ color: 'var(--text-muted)' }}>
-                  Opening direct WhatsApp chat with Mridha and Sons Showroom...
+                  Opening direct WhatsApp chat with Electric Vehicle Showroom...
                 </p>
               </div>
             ) : (
